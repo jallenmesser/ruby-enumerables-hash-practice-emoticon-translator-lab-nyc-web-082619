@@ -17,7 +17,8 @@ end
 
 def get_japanese_emoticon(yaml, emoticon)
   hash = load_library(yaml)
-  hash.find {|key, value| key == emoticon}
+  meaning = hash[:get_emoticon]
+  meaning.find {|key, value| key == emoticon}
 end
 
 def get_english_meaning
