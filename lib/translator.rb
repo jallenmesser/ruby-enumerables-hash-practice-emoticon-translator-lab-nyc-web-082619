@@ -9,7 +9,7 @@ def load_library(library)
     get_emoticon: {}
   }
   hash.each do |english_word, emoticons|
-    library[:get_meaning] = value
+    library[:get_meaning][emoticons.last] = 
   end 
   library
 end
