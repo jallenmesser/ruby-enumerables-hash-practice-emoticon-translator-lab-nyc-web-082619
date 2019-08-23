@@ -5,6 +5,8 @@ def load_library(library)
   require 'yaml'
   hash = YAML.load_file(library)
   library = {
+    
+  }
   hash.each do |key, value|
     hash[key][1]
 end
