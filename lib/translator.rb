@@ -22,7 +22,7 @@ def get_japanese_emoticon(yaml, emoticon)
     temp = meaning.find {|key, value| key == emoticon}
     return found_emoticon[1]
   else
-    return 
+    return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
