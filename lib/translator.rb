@@ -5,7 +5,7 @@ def load_library(library)
   require 'yaml'
   hash = YAML.load_file(library)
   library = {
-    get_meaning: {}
+    get_meaning: {},
     get_emoticon: {}
   }
   library
