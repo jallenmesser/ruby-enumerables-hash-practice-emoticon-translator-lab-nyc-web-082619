@@ -4,6 +4,7 @@ def load_library(library)
   # code goes here
   require 'yaml'
   hash = YAML.load_file(library)
+  puts hash
 end
 
 def get_japanese_emoticon
