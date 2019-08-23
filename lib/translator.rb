@@ -5,10 +5,10 @@ def load_library(library)
   require 'yaml'
   hash = YAML.load_file(library)
   library = {
-    
+    get_meaning: {}
+    get_emoticon: {}
   }
-  hash.each do |key, value|
-    hash[key][1]
+  library
 end
 
 def get_japanese_emoticon
