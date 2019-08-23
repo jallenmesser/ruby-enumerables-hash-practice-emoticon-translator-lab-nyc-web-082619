@@ -17,6 +17,9 @@ end
 
 def get_japanese_emoticon(yaml, emoticon)
   hash = load_library(yaml)
+  i = 0
+  if emoticon
+    
 end
 
 def get_english_meaning
