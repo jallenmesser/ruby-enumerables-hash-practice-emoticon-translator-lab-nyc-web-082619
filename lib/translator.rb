@@ -8,7 +8,7 @@ def load_library(library)
     get_meaning: {},
     get_emoticon: {}
   }
-  hash.each do |key, value|
+  hash.each do |english_word, |
     library[:get_meaning] = value
   end 
   library
