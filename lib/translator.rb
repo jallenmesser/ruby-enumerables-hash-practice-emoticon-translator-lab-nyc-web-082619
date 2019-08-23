@@ -9,7 +9,7 @@ def load_library(library)
     get_emoticon: {}
   }
   hash.each do |key, value|
-    library[:get_meaning] = {value}
+    library[:get_meaning] = {:value}
   end 
   library
 end
