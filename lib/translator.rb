@@ -17,9 +17,7 @@ end
 
 def get_japanese_emoticon(yaml, emoticon)
   hash = load_library(yaml)
-  meaning = hash[:get_emoticon]
-  temp = meaning.find {|key, value| key == emoticon}
-  found_emoticon = temp[1]
+  found_emoticon = hash[:get_emoticon][emoticon]
   if found_emoticon.nil?
     found_emoticon = "Sorry, that emoticon was not found"
   end
