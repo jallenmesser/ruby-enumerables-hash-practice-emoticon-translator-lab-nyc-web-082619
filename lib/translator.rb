@@ -10,6 +10,7 @@ def load_library(library)
   }
   hash.each do |key, value|
     library[:get_meaning] = {value[1] => key}
+  end 
   library
 end
 
