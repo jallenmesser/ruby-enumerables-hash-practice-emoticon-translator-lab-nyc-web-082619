@@ -30,5 +30,5 @@ def get_english_meaning(yaml, meaning)
   if found_meaning.nil?
     found_meaning = "Sorry, that emoticon was not found"
   end
-  found_emoticon
+  found_meaning
 end
