@@ -8,6 +8,8 @@ def load_library(library)
     get_meaning: {},
     get_emoticon: {}
   }
+  hash.each do |key, value|
+    library[:get_meaning] = {key
   library
 end
 
