@@ -2,7 +2,7 @@
 
 def load_library(library)
   # code goes here
-  require "yaml"
+  require 'yaml'
   hash = YAML.load_file('library.yml')
 end
 
