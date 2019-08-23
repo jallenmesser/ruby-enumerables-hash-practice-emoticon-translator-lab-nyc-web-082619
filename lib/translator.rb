@@ -3,6 +3,7 @@
 def load_library(library)
   # code goes here
   hash = {}
+  hash = library.yml
 end
 
 def get_japanese_emoticon
