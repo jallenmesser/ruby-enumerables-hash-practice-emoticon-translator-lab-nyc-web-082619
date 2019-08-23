@@ -4,7 +4,7 @@ def load_library(library)
   # code goes here
   require 'yaml'
   hash = YAML.load_file(library)
-  english_keys
+  library = {
   hash.each do |key, value|
     hash[key][1]
 end
