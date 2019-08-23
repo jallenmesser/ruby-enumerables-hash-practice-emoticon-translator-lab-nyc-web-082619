@@ -21,6 +21,8 @@ def get_japanese_emoticon(yaml, emoticon)
   if emoticon
     temp = meaning.find {|key, value| key == emoticon}
     return found_emoticon[1]
+  else
+    return 
 end
 
 def get_english_meaning
